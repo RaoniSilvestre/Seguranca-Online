@@ -516,13 +516,17 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.h-10 {
+  height:40px
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
 }
 
 .mt-2 {
-  margin-top: 0.5rem;
+  margin-top: 1.5rem;
 }
 
 .mt-4 {
@@ -590,7 +594,7 @@ video {
 }
 
 .p-10 {
-  padding: 2.5rem;
+  padding: 5rem;
 }
 
 .p-2 {
@@ -602,7 +606,7 @@ video {
 }
 
 .text-3xl {
-  font-size: 1.875rem;
+  font-size: 3rem;
   line-height: 2.25rem;
 }
 
