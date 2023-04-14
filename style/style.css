@@ -12,15 +12,5 @@ body {
   margin: 0;
 }
 
-.background {
-    background-image: url("../images/background.jpg");
-     center center/cover;
-    position: absolute;
-    top: -20px;
-    bottom: -20px;
-    left: -20px;
-    right: -20px;
-    z-index: -1;
-    filter: blur(20px);
-  }
+
   

@@ -1,6 +1,6 @@
 
-$(document).ready(function () {
-    $("#button").click(function () {
+$(function () {
+    $("#button").on('click',function () {
         
         //Limpando ocorrências anteriores
         $("#output").text('')
