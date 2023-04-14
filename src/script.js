@@ -1,7 +1,7 @@
 
 $(document).ready(function () {
     $("#button").click(function () {
-
+        
         //Limpando ocorrências anteriores
         $("#output").text('')
         // Base de dados das palavras erradas
@@ -43,10 +43,10 @@ $(document).ready(function () {
         // Verificação de palavras impróprias 
         if (quantidadePalavrasImproprias == 0) {
             conclusão = ('Não há palavras impróprias no texto.')
-            estilo = 'bg-emerald-600 p-1 mt-2 rounded text-white'
+            estilo = 'p-1 mt-2 rounded'
         } else {
             conclusão = ('Existem ' + quantidadePalavrasImproprias + ' palavras impróprias no texto, sendo elas: ' + elementosImpropriosEncontrados + '.')
-            estilo = 'bg-red-700 p-1 mt-2 rounded '
+            estilo = ' p-1 mt-2 rounded'
         }
 
         //output
